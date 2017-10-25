@@ -3,9 +3,9 @@ function towerBuilder(nFloors) {
 	var spaces = nFloors;
 	for (var i = 1; i <= nFloors; i++) {
 		var block = "";
-		block+=(" ".repeat(spaces-1));
-		block+=("*".repeat(1+(i-1)*2));
-		block+=(" ".repeat(spaces-1));
+		block+=(" ".repeat(spaces - 1));
+		block+=("*".repeat(1 + (i - 1) * 2));
+		block+=(" ".repeat(spaces - 1));
 		tower.push(block);
 		spaces--;
 	}
